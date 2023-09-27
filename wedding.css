@@ -1,0 +1,98 @@
+:root{
+    --green: #567c56;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    color: var(--green);
+    font-weight: 400;
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 60px;
+}
+h2 span{
+    opacity: 0.1;
+    position: absolute;
+    top: -4rem;
+    left: -2.4rem;
+    font-size: 8rem;
+}
+header{
+    padding: 20px;
+}
+div.header-navigations{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.header-navigations a{
+    color: var(--green);
+    text-decoration: none;
+}
+div.header-navigations a.logo{
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+}
+div.header-navigations nav a{
+    margin: 0 4px;
+}
+div.header-navigations nav:nth-child(3){
+    text-align: right;
+}
+div.cta{
+    background-image: url(cta/wedd7.jpg);
+    background-position: center center;
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+}
+div.cta div.content{
+    background-color: rgba(26, 24, 24, 0.5);
+    padding: 100px 100px;
+    text-shadow: 1px 1px rgba(0, 0, 0.2);
+}
+div.cta div.content p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+div.cta div.content h1{
+    font-size: 3rem;
+}
+div.cta div.content a.btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+section{
+    margin: 100px auto;
+    max-width: 786px;
+}
+section#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+section#about p{
+    color: #888;
+    margin: 20px 0;
+}
