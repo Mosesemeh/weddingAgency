@@ -57,7 +57,7 @@ div.header-navigations nav:nth-child(3){
     text-align: right;
 }
 div.cta{
-    background-image: url(cta/wedd7.jpg);
+    background-image: url(cta/weddE.jpg);
     background-position: center center;
     background-size: cover;
     color:#fff;
@@ -188,7 +188,8 @@ div.stage ol li span{
     font-weight: 300;
     display: inline-block;
     opacity: .2;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: bold;
     color: var(--green);
     position: absolute;
     margin-top: 0;
