@@ -44,6 +44,12 @@ div.header-navigations{
 div.header-navigations a{
     color: var(--green);
     text-decoration: none;
+}
+@media screen and (max-width: 700px){
+    div.header-navigations a{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 } 
 div.header-navigations a.logo{
     text-align: center;
