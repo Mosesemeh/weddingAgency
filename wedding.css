@@ -63,14 +63,14 @@ div.header-navigations nav:nth-child(3){
     text-align: right;
 }
 div.cta{
-    background-image: url(cta/wedddA.jpg);
+    background-image: url(cta/weddk.jpg);
     background-position: center center;
     background-size: cover;
     color:#fff;
     text-align: center;
 }
 div.cta div.content{
-    background-color: rgba(26, 24, 24, 0.7);
+    background-color: rgba(26, 24, 24, 0.8);
     padding: 100px 50px;
     text-shadow: 1px 1px rgba(0, 0, 0.2);
 }
