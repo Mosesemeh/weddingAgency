@@ -11,6 +11,7 @@ img{
 }
 body{
     font-family: sans-serif;
+    background-color: rgba(245, 255, 250, 0.678);
 }
 h1,h2{
     font-family: 'Times New Roman', Times, serif;
