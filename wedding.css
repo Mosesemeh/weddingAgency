@@ -82,6 +82,9 @@ div.cta div.content div.center{
     div.cta div.content{
         padding: 80px 20px;
     }
+    h1{
+        font-size: 1rem;
+    }
 }
 div.cta div.content p{
     margin-top: 20px;
