@@ -92,7 +92,7 @@ div.cta div.content h1{
 }
 @media screen and (max-width: 400px){
     div.cta div.content h1{
-        font-size: 0.5rem;
+        font-size: 2rem;
     }
 }
 div.cta div.content a.btn{
